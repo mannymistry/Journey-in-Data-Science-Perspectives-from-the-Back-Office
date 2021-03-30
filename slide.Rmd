@@ -12,9 +12,11 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
----    
+
+---
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
+library(knitr)
 style_mono_accent(
   base_color = "#1c5253",
   header_font_google = google_font("Josefin Sans"),
@@ -23,9 +25,10 @@ style_mono_accent(
 )
 ```      
 
----
 
 ### A little about me 
+
+--
 
  - Business Analyst Risk and Analytics
 
@@ -47,8 +50,14 @@ style_mono_accent(
 
 ### What I will talk about
 
+--
+
    + My framework for learning and applying R to my day to day tasks
+--
+
    + Recognize when it makes sense to switch an Excel process to R 
+--
+
    + How to convince a team-mate to join the jouRney with you 
 
 ???
@@ -78,6 +87,7 @@ See my github for links to arguments for both sides
 
 ### Disclaimer: Excel and I are still friends
 
+--
 
  + I had my start with the humble spreadsheet
  
@@ -149,14 +159,11 @@ Early in my career I took notice of all the Excel SS that I was asked to work wi
 
 --
 
-  + Version control (Happy with GitR)
+  + Version control [Happy with GitR](https://happygitwithr.com/)
   
-<!-- **Screenshot and link to Happy with GitR here**   -->
 --
 
-  + Incredibly kind and supportive community (R)
-
-<!-- **Screen Shot from Stackoverflow goes here** -->
+  + Incredibly kind and [supportive](https://community.rstudio.com/) [community](https://stackoverflow.com/questions/tagged/r)
 
 --
 
@@ -164,7 +171,7 @@ Early in my career I took notice of all the Excel SS that I was asked to work wi
   
 --
 
-  + RStudio IDE made it that much easier
+  + [RStudio](https://www.rstudio.com/products/rstudio/) IDE made it that much easier
   
 
 ???
@@ -187,14 +194,13 @@ A couple of benefits of working in R I reaped right away were
 
   <!-- + Dunning Kreuger  -->
   
-  <!-- ![](dunning-kreuger.png) -->
 
   + Learning curve was steep
   
+![.](dunning-kreuger.png)
 --
 
-
-  + Heavy reliance on the R community and Stack Overflow 
+  + Shout out to  Online R Community and Stack Overflow 
 
 ???
 
@@ -233,6 +239,9 @@ A couple of benefits of working in R I reaped right away were
 1) 
 If it is a work thing and you can't get access to R do it at home, Create a mock data set with similar properties to the data at work
 
+https://www.listendata.com/2016/02/r-create-dummy-data.html
+
+
 2)
 This was critical so that I did not lose motivation
 It also helped me see the big picture as to what I wanted to accomplish
@@ -252,9 +261,20 @@ Easy to say hard to do with  - understanding that everyone day to day is differe
 
 ### When I got stuck 
 
+--
+
   + Read the function documentation - skip straight to the example and attempt to replicate 
+  
+--
+
   + Stackoverflow - Has someone else run into the same issue? Don't forget to use tags
-  + Stackoverflow - Ask a reproducible question
+
+--
+
+  + Stackoverflow - Ask a [reproducible question](https://stackoverflow.com/help/minimal-reproducible-example) 
+
+--
+  
   + Ask someone who knows R directly - if you don't know anyone ask me mandip@56doors.com
 
 --
@@ -263,39 +283,92 @@ Easy to say hard to do with  - understanding that everyone day to day is differe
 
 ### Use RMarkdown!  (Your future self will thank you)
 
-<!-- A screenshot of an RMarkdown document one with alot of text -->
+--
+
   + Describe every step you are taking in plain English
+
+--
+  
   + Keep every link that you might have to used and describe why it was useful (blogs, stackoverflow questions etc)
+
+--
+
   + A great place to write up your reproducible example should you need to provide one 
   
+--
+
+![](rmarkdownscreenshot.png)
 ---
 
 ### When to consider using R: A back-office example
 
+--
+
   + You are responsible for reconciling thousands of settlements each day using leveraging pivot tables and macro's for data sorting
+
+--
+
   + When a new counterparty is brought on board multiple sheets need to be updated manually in order to account for this
+
+--
   + One a typo in the counterparty name could throw off a variety of lookups you have in place
+
+--
+  
   + You did not create the macro use in sorting and that person has also left the company
+  
+--
+  
   + There is some interest from your manager in using open source software 
 ---
 
 ### When not to consider R: A back-office example
 
+--
+
   + The sheet you are attempting to replace is very simple(No Macros etc)
+
+--
+
   + Your company has taken the explicit stance against open source  software such as R and Python
+  
 ---
 
 ### Getting a friend to join in the jouRney
 
-*Most if not all remixed/adapted from Greg Wilson Teaching Tech Together - "The Art of the Cold Call"
+*All remixed/adapted from (Greg Wilson Teaching Tech Together)[https://teachtogether.tech/en/index.html] - "The Art of the Cold Call"
+
+--
 
  + You should not have to talk someone into in the jouRney
+
+--
+
  + Be kind 
+
+--
+
  + Start small
+
+--
+
  + Be patient
+
+--
+
  + Be consistent
  
 
+---
+
+### Interesting Links and Articles I came across while preparing this talk 
+
+ + https://www.gapintelligence.com/blog/understanding-r-programming-over-excel-for-data-analysis/
+ + https://fantasyfootballanalytics.net/2014/01/why-r-is-better-than-excel.html
+ + https://www.jessesadler.com/post/excel-vs-r/
+ + http://www.eusprig.org/
+ + https://www.teampay.co/insights/biggest-excel-mistakes-of-all-time/
+ 
 <!-- --- -->
 
 <!-- Why its important from a management perspective -->

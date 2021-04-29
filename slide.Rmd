@@ -3,7 +3,7 @@ title: "My Data Science Journey"
 subtitle: "Perspectives from the back office"
 author: "Mandip Mistry (he/him)"
 institute: "56 Doors"
-date: "2021/01/12 (updated: `r Sys.Date()`)"
+date: "2021/03/30 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -200,6 +200,7 @@ A couple of benefits of working in R I reaped right away were
 ![.](dunning-kreuger.png)
 --
 
+
   + Shout out to  Online R Community and Stack Overflow 
 
 ???
@@ -237,14 +238,14 @@ A couple of benefits of working in R I reaped right away were
 ???
 
 1) 
-If it is a work thing and you can't get access to R do it at home, Create a mock data set with similar properties to the data at work
+If it is a work thing and you can't get access to R do it at home, Create a mock data set with similar properties to the data at work. One things is make sure that it provides value
 
 https://www.listendata.com/2016/02/r-create-dummy-data.html
 
 
 2)
-This was critical so that I did not lose motivation
-It also helped me see the big picture as to what I wanted to accomplish
+Seeing the big picture before I started the work really helped with staying motivated. 
+I knew what I was planning to accomplish. 
 
 
 3)
@@ -263,7 +264,7 @@ Easy to say hard to do with  - understanding that everyone day to day is differe
 
 --
 
-  + Read the function documentation - skip straight to the example and attempt to replicate 
+  + Read the function documentation - skip straight to the example and attempt to replicate `??function`
   
 --
 
@@ -278,6 +279,14 @@ Easy to say hard to do with  - understanding that everyone day to day is differe
   + Ask someone who knows R directly - if you don't know anyone ask me mandip@56doors.com
 
 --
+
+???
+
+Go straight to the documentation. Fastest way to replicate what you are intending to do 
+
+Odds are someone has had a simillar problem
+
+If they haven't ask your own question. Make sure its reproducible. 
 
 ---
 
@@ -308,19 +317,33 @@ Easy to say hard to do with  - understanding that everyone day to day is differe
 
 --
 
-  + When a new counterparty is brought on board multiple sheets need to be updated manually in order to account for this
+  + You manage a sheet that intakes client as a field. When a new client brought on board multiple sheets need to be updated manually in order to account for this
 
 --
   + One a typo in the counterparty name could throw off a variety of lookups you have in place
 
 --
   
-  + You did not create the macro use in sorting and that person has also left the company
+  + You did not create a macro that is used in sorting and the person who created that macro has left
   
 --
   
   + There is some interest from your manager in using open source software 
+  
+???
+
+They main thing with moving to R is that you want to demonstrate the value add that comes 
+
+1) Value adds. Time and Money
+
+2) Value adds. Reduce typos and potential errors
+
+3) Value adds: Key Person risk and version control
+
+4) All of the above wrapped up in a nice bow
 ---
+
+
 
 ### When not to consider R: A back-office example
 
@@ -331,8 +354,12 @@ Easy to say hard to do with  - understanding that everyone day to day is differe
 --
 
   + Your company has taken the explicit stance against open source  software such as R and Python
-  
+
+???
+
+Dont fix what aint broke
 ---
+
 
 ### Getting a friend to join in the jouRney
 
